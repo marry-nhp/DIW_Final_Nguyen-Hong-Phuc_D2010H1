@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="./img/Rectangle.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container headerTitle">
+            <div class="row">
+                <div class="col-lg-3 logo">
+                    <img src="./img/Logo.png">
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="headerContent">
+                        <img class="header-logo locationLogo" src="./img/location.png">
+                        <div class="header-content">
+                            <p>110 Tran Phu, Mo lao, Ha Dong, thanh pho Ha Noi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="headerContent">
+                        <img class="header-logo emailLogo" src="./img/email.png">
+                        <div class="header-content">
+                            <p><span>Email:</span> travelcar@gmail.com</p>
+                            <p><span>Email:</span> travelcar@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="headerContent">
+                        <img class="header-logo phoneLogo" src="./img/phone.png">
+                        <div class="header-content">
+                            <p><span>Phone:</span> (+84) 4444 9432</p>
+                            <p><span>Phone:</span> (+84) 4864 9686</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img width="70%" src="./img/Logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link home" aria-current="page" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="carRentalGuidelines.html">CAR RENTAL GUIDELINES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="cars.html">CAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="help.html">HELP</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex dropdown">
+                        <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Log in/Register
+                            <span>
+                                <img src="./img/Group2562.png">
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="account.html">Account</a></li>
+                            <li><a class="dropdown-item" href="favorite.html">Favorite car</a></li>
+                            <li><a class="dropdown-item" href="#">Promotions</a></li>
+                            <li><a class="dropdown-item" href="#">Change Password</a></li>
+                            <li><a class="dropdown-item" href="login.html">Login</a></li>
+                            <li><a class="dropdown-item" href="register.html">Register</a></li>
+                            <li><a class="dropdown-item" href="#">Log out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="rentalTile">
+            <div class="container">
+                <div class="text-end">
+                    <p>
+                        LOGIN <span><img src="./img/Ellipse146.png">FAVORITE CAR</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="featured-car feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="featuredImg">
+                            <img width="100%" src="./img/oto1.png">
+                            <img class="featuredImg-bottom" width="100%" src="./img/Subtract.png">
+                            <span>$2.500</span>
+                        </div>
+                        <div class="featuredContent">
+                            <div class="featuredContent-star">
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                            </div>
+                            <div class="featuredContent-car">
+                                <p class="carName">BMW N3, NAVI, LEATHER, ABS</p>
+                                <p class="featuredConten-gasoline">
+                                    <span class="gasoline">
+                                        45/65 <img src="./img/Group218.png">
+                                    </span>
+                                    <span>
+                                        Automatic <img src="./img/car13.png">
+                                    </span>
+                                </p>
+                                <p class="featuredConten-location">
+                                    <span>
+                                        <img src="./img/Group210.png"> Bac Tu Liem, Ha Noi
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="featuredContent-button">
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__left">
+                                        Unlike
+                                    </button>
+                                </span>
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__right">
+                                        Details
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="featuredImg">
+                            <img width="100%" src="./img/oto7.png">
+                            <img class="featuredImg-bottom" width="100%" src="./img/Subtract.png">
+                            <span>$2.500</span>
+                        </div>
+                        <div class="featuredContent">
+                            <div class="featuredContent-star">
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                            </div>
+                            <div class="featuredContent-car">
+                                <p class="carName">BMW N3, NAVI, LEATHER, ABS</p>
+                                <p class="featuredConten-gasoline">
+                                    <span class="gasoline">
+                                45/65 <img src="./img/Group218.png">
+                            </span>
+                                    <span>
+                                Automatic <img src="./img/car13.png">
+                            </span>
+                                </p>
+                                <p class="featuredConten-location">
+                                    <span>
+                                <img src="./img/Group210.png"> Bac Tu Liem, Ha Noi
+                            </span>
+                                </p>
+                            </div>
+                            <div class="featuredContent-button">
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__left">
+                                        Unlike
+                                    </button>
+                                </span>
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__right">
+                                        Details
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="featuredImg">
+                            <img width="100%" src="./img/oto2.png">
+                            <img class="featuredImg-bottom" width="100%" src="./img/Subtract.png">
+                            <span>$2.500</span>
+                        </div>
+                        <div class="featuredContent">
+                            <div class="featuredContent-star">
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                            </div>
+                            <div class="featuredContent-car">
+                                <p class="carName">BMW N3, NAVI, LEATHER, ABS</p>
+                                <p class="featuredConten-gasoline">
+                                    <span class="gasoline">
+                                45/65 <img src="./img/Group218.png">
+                            </span>
+                                    <span>
+                                Automatic <img src="./img/car13.png">
+                            </span>
+                                </p>
+                                <p class="featuredConten-location">
+                                    <span>
+                                <img src="./img/Group210.png"> Bac Tu Liem, Ha Noi
+                            </span>
+                                </p>
+                            </div>
+                            <div class="featuredContent-button">
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__left">
+                                        Unlike
+                                    </button>
+                                </span>
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__right">
+                                        Details
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="featuredImg">
+                            <img width="100%" src="./img/oto3.png">
+                            <img class="featuredImg-bottom" width="100%" src="./img/Subtract.png">
+                            <span>$2.500</span>
+                        </div>
+                        <div class="featuredContent">
+                            <div class="featuredContent-star">
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                            </div>
+                            <div class="featuredContent-car">
+                                <p class="carName">BMW N3, NAVI, LEATHER, ABS</p>
+                                <p class="featuredConten-gasoline">
+                                    <span class="gasoline">
+                                45/65 <img src="./img/Group218.png">
+                            </span>
+                                    <span>
+                                Automatic <img src="./img/car13.png">
+                            </span>
+                                </p>
+                                <p class="featuredConten-location">
+                                    <span>
+                                <img src="./img/Group210.png"> Bac Tu Liem, Ha Noi
+                            </span>
+                                </p>
+                            </div>
+                            <div class="featuredContent-button">
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__left">
+                                        Unlike
+                                    </button>
+                                </span>
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__right">
+                                        Details
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="featuredImg">
+                            <img width="100%" src="./img/oto4.png">
+                            <img class="featuredImg-bottom" width="100%" src="./img/Subtract.png">
+                            <span>$2.500</span>
+                        </div>
+                        <div class="featuredContent">
+                            <div class="featuredContent-star">
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                            </div>
+                            <div class="featuredContent-car">
+                                <p class="carName">BMW N3, NAVI, LEATHER, ABS</p>
+                                <p class="featuredConten-gasoline">
+                                    <span class="gasoline">
+                                45/65 <img src="./img/Group218.png">
+                            </span>
+                                    <span>
+                                Automatic <img src="./img/car13.png">
+                            </span>
+                                </p>
+                                <p class="featuredConten-location">
+                                    <span>
+                                <img src="./img/Group210.png"> Bac Tu Liem, Ha Noi
+                            </span>
+                                </p>
+                            </div>
+                            <div class="featuredContent-button">
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__left">
+                                        Unlike
+                                    </button>
+                                </span>
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__right">
+                                        Details
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="featuredImg">
+                            <img width="100%" src="./img/oto5.png">
+                            <img class="featuredImg-bottom" width="100%" src="./img/Subtract.png">
+                            <span>$2.500</span>
+                        </div>
+                        <div class="featuredContent">
+                            <div class="featuredContent-star">
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                            </div>
+                            <div class="featuredContent-car">
+                                <p class="carName">BMW N3, NAVI, LEATHER, ABS</p>
+                                <p class="featuredConten-gasoline">
+                                    <span class="gasoline">
+                                45/65 <img src="./img/Group218.png">
+                            </span>
+                                    <span>
+                                Automatic <img src="./img/car13.png">
+                            </span>
+                                </p>
+                                <p class="featuredConten-location">
+                                    <span>
+                                <img src="./img/Group210.png"> Bac Tu Liem, Ha Noi
+                            </span>
+                                </p>
+                            </div>
+                            <div class="featuredContent-button">
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__left">
+                                        Unlike
+                                    </button>
+                                </span>
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__right">
+                                        Details
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="featuredImg">
+                            <img width="100%" src="./img/oto6.png">
+                            <img class="featuredImg-bottom" width="100%" src="./img/Subtract.png">
+                            <span>$2.500</span>
+                        </div>
+                        <div class="featuredContent">
+                            <div class="featuredContent-star">
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                                <span><img src="./img/Star1.png"></span>
+                            </div>
+                            <div class="featuredContent-car">
+                                <p class="carName">BMW N3, NAVI, LEATHER, ABS</p>
+                                <p class="featuredConten-gasoline">
+                                    <span class="gasoline">
+                                45/65 <img src="./img/Group218.png">
+                            </span>
+                                    <span>
+                                Automatic <img src="./img/car13.png">
+                            </span>
+                                </p>
+                                <p class="featuredConten-location">
+                                    <span>
+                                <img src="./img/Group210.png"> Bac Tu Liem, Ha Noi
+                            </span>
+                                </p>
+                            </div>
+                            <div class="featuredContent-button">
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__left">
+                                        Unlike
+                                    </button>
+                                </span>
+                                <span class="">
+                                    <button type="button" class="btn featuredContent-button__right">
+                                        Details
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row information">
+                <div class="col-lg-4">
+                    <img class="logo" src="./img/Logo.png">
+                    <div class="social">
+                        <img src="./img/Group88.png">
+                    </div>
+                    <div class="certificate">
+                        <h5>CERTIFICATE</h5>
+                        <img src="./img/Group90.png">
+                        <p>NAME VietNam Joint Stock Company</p>
+                    </div>
+                    <div class="payment">
+                        <h5>PAYMENT METHOD</h5>
+                        <div class="paymentImg">
+                            <span><img width="20%" src="./img/homecredit.png"></span>
+                            <span><img width="20%" src="./img/MoMo_Logo.png"></span>
+                            <span><img width="20%" src="./img/Viettel_pay_logo.png"></span>
+                            <span><img width="20%" src="./img/Group89.png"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row informationTop">
+                        <div class="col-lg-4">
+                            <h5>Policy</h5>
+                            <ul>
+                                <li>
+                                    <a href="">Their blog</a>
+                                </li>
+                                <li>
+                                    <a href="">Policies and regulations</a>
+                                </li>
+                                <li>
+                                    <a href="">Operational Regulations</a>
+                                </li>
+                                <li>
+                                    <a href="">Information security</a>
+                                </li>
+                                <li>
+                                    <a href="">Dispute resolution</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>Information</h5>
+                            <ul>
+                                <li>
+                                    <a href="">General guidance</a>
+                                </li>
+                                <li>
+                                    <a href="">Instructions booking a car</a>
+                                </li>
+                                <li>
+                                    <a href="">Guide for car owners</a>
+                                </li>
+                                <li>
+                                    <a href="">Payment Guide</a>
+                                </li>
+                                <li>
+                                    <a href="">Ask and answer</a>
+                                </li>
+                                <li>
+                                    <a href="">Logo blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>Partner</h5>
+                            <ul>
+                                <li>
+                                    <a href="">Car owner registration</a>
+                                </li>
+                                <li>
+                                    <a href="">Register GPS MI - TRACK 1.0</a>
+                                </li>
+                                <li>
+                                    <a href="">Register for Material Insurance & Vehicle</a>
+                                </li>
+                                <li>
+                                    <a href="">Car</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row informationBottom">
+
+                        <a href="">Address : 110 Tran Phu , Ha Dong , Thanh Pho Ha Noi
+                        </a>
+                        <div class="col-lg-4">
+                            <ul>
+                                <li>
+                                    <a href="">Tax Cod : 010602</a>
+                                </li>
+                                <li>
+                                    <a href="">Tax Cod : 010702</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <ul>
+                                <li>
+                                    <a href="">Phone: 0944449432</a>
+                                </li>
+                                <li>
+                                    <a href="">Phone: 0948649686</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <ul>
+                                <li>
+                                    <a href="">Email : Travelcar@gmail.com</a>
+                                </li>
+                                <li>
+                                    <a href="">Email : Travelcar@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyRight">
+                        <hr width="80%" text-align="left" size="3px" color="#fff" />
+                        <span>
+                            &#169; by copyright
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

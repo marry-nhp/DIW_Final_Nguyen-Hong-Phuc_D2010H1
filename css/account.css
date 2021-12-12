@@ -1,0 +1,113 @@
+.account {
+    background-color: #E8EAEF;
+    padding-bottom: 5rem;
+}
+
+.infomation-account {
+    padding: 0 5%;
+}
+
+.infomation-account .point {
+    float: right;
+    margin-top: -12rem;
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+}
+
+.infomation-name {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.infomation-img img {
+    margin-top: -15rem;
+    width: 20%;
+}
+
+.infomation-name p.name {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;
+    margin-top: 1rem;
+}
+
+.infomation-name p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #24272E;
+}
+
+.dateSex {
+    display: inline-flex;
+    text-align: center;
+}
+
+.dateSex p {
+    margin-bottom: 0;
+}
+
+.dateSex p.title {
+    margin-bottom: 0;
+    color: #A5AAB5;
+    font-weight: bold;
+}
+
+.dateSex .date {
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-right: 2rem;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+}
+
+.dateSex .sex {
+    background-color: #fff;
+    padding: 10px 45px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+}
+
+.infomation-name span img {
+    margin-bottom: -5rem;
+    margin: 0 1rem;
+}
+
+.infomationBottom {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem 4rem;
+    margin-top: 3rem;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+}
+
+.infomationBottom label {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .infomation-img {
+        text-align: center;
+    }
+    .infomation-img img {
+        margin-top: -3rem;
+        width: 50%;
+    }
+    .infomation-account {
+        padding: 0;
+    }
+    .infomation-name {
+        margin: 0;
+    }
+    .infomation-account .point {
+        float: none;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

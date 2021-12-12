@@ -1,0 +1,69 @@
+.carHanoi {
+    position: relative;
+}
+
+.carHanoi .banner-content {
+    position: absolute;
+    right: 40%;
+    transform: translate(35%, 50%);
+    top: -7%;
+    background: rgb(121 85 72 / 43%);
+    padding: 50px;
+}
+
+.carHanoi .carHanoiContent {
+    padding: 30px;
+    background-color: rgba(207, 207, 207, 0.4);
+}
+
+.carHanoi .imgTop {
+    padding: 20px 85px;
+}
+
+.carHanoi .imgBottom {
+    padding: 20px 85px;
+}
+
+.carHanoi .formInput {
+    width: 452px;
+    height: 260px;
+}
+
+.carHanoi h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.carHanoi .featured-car .featured-carBottom .swiper-button img {
+    margin-top: -13rem;
+}
+
+.reviewCar p.name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.reviewCar .row.reviewTop {
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 25%);
+    margin: 0 1rem;
+    padding-top: 5px;
+    margin-top: 3rem;
+}
+
+.carHanoi .place {
+    border: 1px solid #0ABF8C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    color: #969696;
+    font-size: 18px;
+    padding: 5px 0;
+    margin: 1rem 0;
+}
+
+.carHanoi .helpStart {
+    margin: 3rem 0;
+}

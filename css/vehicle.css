@@ -1,0 +1,156 @@
+    p.Automatic {
+        background-color: #C4C4C461;
+        color: #727272;
+        padding: 6px 25px;
+        border: 1px solid #727272;
+        width: 125px;
+    }
+    
+    .characterLeft {
+        float: left;
+    }
+    
+    .characterRight {
+        float: right;
+    }
+    
+    .vehicleContent h6 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 29px;
+        opacity: 0.5;
+    }
+    
+    .vehicleRight p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .rules p {
+        margin-bottom: 0;
+    }
+    
+    .vehicleContent .name {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .characterLeft img {
+        margin-right: 2rem;
+    }
+    
+    .vehicleContent {
+        margin: 2rem 0;
+    }
+    
+    .characterLeft button {
+        background: #fff;
+        padding: 10px 50px;
+        border: 1px solid #0ABF8C;
+        margin-top: 20px;
+    }
+    
+    .characterRight button {
+        background: #0ABF8C;
+        padding: 10px 30px;
+        color: #fff;
+        border: 1px solid #0ABF8C;
+        margin-top: 20px;
+    }
+    
+    .review .name {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .reviewContent {
+        margin-left: 7rem;
+    }
+    
+    .reviewDate {
+        color: #504D4F;
+        margin-top: 3.5rem;
+    }
+    
+    .reviewTop {
+        margin-top: 1rem;
+    }
+    
+    .informationCar h3 {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .rateCar {
+        margin-bottom: 2rem;
+    }
+    
+    .vehicleContentRight {
+        border: 1px solid #727272;
+        border-radius: 35px;
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .vehicleContentRight h4 {
+        margin: 0;
+        text-align: center;
+        color: #0ABF8C;
+    }
+    
+    .vehicleContentRight .form-control {
+        border: 1px solid #727272;
+        background: #fff;
+        border-radius: 7px;
+        color: black;
+        margin-left: 3rem;
+        width: 83%;
+        padding: 0.25rem 0.5rem;
+        font-size: .85rem;
+    }
+    
+    .vehicleContentRight h6 {
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+    
+    .vehicleContentRight p {
+        font-size: 13px;
+    }
+    
+    .vehicleContentRight .delivery {
+        border: 1px solid #727272;
+        padding: 1rem 1rem 0 1rem;
+        background-color: #F9B299;
+    }
+    
+    .total .totalRight {
+        text-align: right;
+    }
+    
+    .total p {
+        margin-bottom: 0.5rem;
+    }
+    
+    button.btn.btn-success {
+        width: 100%;
+        padding: 10px 0;
+        font-weight: bold;
+        border-radius: 0;
+        background-color: #0ABF8C;
+        border: 1px solid #0ABF8C;
+    }
+    
+    .modal-body {
+        padding: 3rem;
+    }
+    
+    .modal-body p {
+        margin: 2rem 0;
+    }
+    
+    .reviewContent p {
+        margin-bottom: 5px;
+    }

@@ -1,0 +1,30 @@
+.helpContent label {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.helpContent p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.helpContent hr {
+    color: #A5AAB5;
+    opacity: 1;
+    width: 70%;
+}
+
+button.text-center.help-btn {
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #0ABF8C;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 6px 40px;
+}

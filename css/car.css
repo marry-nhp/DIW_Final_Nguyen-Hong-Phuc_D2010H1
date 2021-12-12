@@ -1,0 +1,129 @@
+.searchInventory {
+    background: #363E59;
+    padding: 0rem 2rem 2rem 2rem;
+    color: #fff;
+}
+
+.searchInventory h5 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    color: #fff;
+}
+
+.searchInventory label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.searchInventory ul {
+    background: #515A79;
+}
+
+.searchInventory button#dropdownMenuButton2 {
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+}
+
+.searchInventory .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+}
+
+.searchInventory .dropdownContent {
+    margin-top: 30px;
+}
+
+button.btn.text-center.buttonBottom {
+    background: #0ABF8C;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    padding: 10px 25px;
+    margin-bottom: 3rem;
+}
+
+.dropdownBottom {
+    text-align: center;
+}
+
+.sort {
+    border-bottom: 1px solid #C4C4C4;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.sort span {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.sort button#dropdownMenuButton2 {
+    text-align: left;
+    border-radius: 0;
+    font-size: 15px;
+    background: #E4E4E4;
+    color: black;
+    border: 0;
+}
+
+.sort .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.price {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 15px;
+    width: 25%;
+    background: #E4E4E4;
+    border-radius: 25px;
+    margin: 2rem 0;
+}
+
+.price span {
+    color: red;
+}
+
+.price img {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.snip {
+    margin-bottom: 5rem;
+}
+
+.snip span {
+    margin: 0 5px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.snip span.snipin {
+    color: #9D9D9D;
+    letter-spacing: 2px;
+}
+
+.snip span.color {
+    color: #0ABF8C;
+}
+
+.featuredContent {
+    margin-bottom: 3rem;
+}
