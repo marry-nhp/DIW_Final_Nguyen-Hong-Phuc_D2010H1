@@ -131,7 +131,7 @@
                     }
                     
                     header {
-                        background-color: #242734;
+                        background-color: #070758;
                     }
                     
                     .headerContent {
@@ -202,7 +202,7 @@
                     }
                     
                     a.nav-link.active {
-                        background-color: #0ABF8C !important;
+                        background-color: #e60028 !important;
                     }
                     
                     ul.navbar-nav li a:first-child {
@@ -216,7 +216,7 @@
                     }
                     
                     li.nav-item:hover {
-                        background-color: #0ABF8C;
+                        background-color: #e60028;
                     }
                     
                     .navbar-light .navbar-nav .nav-link:hover {
@@ -229,7 +229,7 @@
                     }
                     
                     a.nav-link:hover {
-                        background-color: #0ABF8C;
+                        background-color: #e60028;
                         color: #fff;
                         padding-top: 10px;
                         padding-bottom: 10px;
@@ -338,19 +338,30 @@
                         line-height: 24px;
                     }
                     
-                    .extraContent p button.buttonLeft {
+                    .extraContent p button.btn_findout {
                         background-color: #363E59;
                         border-color: #363E59;
                         border-radius: 5px;
                         padding: 10px 47px;
                         margin-right: 20px;
                     }
+
+                    .extraContent p button.btn_findout:hover{
+                        color: #212529 !important;
+                        background-color: #FFFFFF;
+                        
+                    }
                     
-                    .extraContent p button.buttonRight {
-                        background-color: #0ABF8C;
-                        border-color: #0ABF8C;
+                    .extraContent p button.btn_register {
+                        background-color: #cf1d19;
+                        border-color: #cf1d19;
                         border-radius: 5px;
                         padding: 10px 16px;
+                    }
+
+                    .extraContent p button.btn_register:hover{
+                        color: #212529 !important;
+                        background-color: #FFFFFF;
                     }
                     
                     .extraContent p.extraTitle {
@@ -403,7 +414,7 @@
                     /* footer */
                     
                     footer {
-                        background-color: #000000;
+                        background-color: #000054;
                         color: #fff;
                         padding-top: 5rem;
                         padding-bottom: 3rem;
@@ -456,7 +467,7 @@
                     }
                     
                     .information a:hover {
-                        color: #0ABF8C;
+                        color: #e60028;
                     }
                     
                     .information h5 {
@@ -498,13 +509,13 @@
                         outline: none;
                         border: none;
                         border-bottom: 2px solid #fff;
-                        background: rgba(47, 46, 45, 0.9);
+                        background: #fff;
                         border-radius: 0;
-                        color: #fff;
+                        color: #e91e19;
                     }
                     
                     .formInput {
-                        background: rgba(47, 46, 45, 0.9);
+                        background: rgba(94, 92, 89, 0.9);
                         padding: 15px 40px;
                         margin-left: -25px;
                         /* border-left: 2px solid #fff; */
@@ -514,12 +525,11 @@
                     }
                     
                     .form-control:focus {
-                        color: #212529;
-                        background: rgba(47, 46, 45, 0.9);
+                        color: #cf1d19;
+                        background: #fff;
                         border-color: #fff;
                         outline: 0;
                         box-shadow: 0 0 0 0;
-                        color: #fff;
                     }
                     
                     .formInput label {
@@ -527,7 +537,7 @@
                         font-weight: normal;
                         font-size: 16px;
                         line-height: 19px;
-                        color: #0ABF8C;
+                        color: #bb1814;
                     }
                     
                     .banner-content img {
@@ -555,6 +565,10 @@
                         width: 100%;
                         margin-top: 10px;
                     }
+                    .formInput button:hover{
+                        color: #E9E9E9 !important;
+                        background-color: #bb1814;
+                    }
                     
                     .formInput button.btn.btnRight {
                         padding: 0.25rem 0.75rem;
@@ -562,7 +576,7 @@
                         font-weight: bold;
                         font-size: 18px;
                         line-height: 22px;
-                        color: #0ABF8C;
+                        color: #cf1d19;
                     }
                     
                     .formInput input::placeholder {
@@ -719,7 +733,7 @@
                         .extraContent {
                             position: inherit;
                         }
-                        .extraContent p button.buttonLeft {
+                        .extraContent p button.btn_findout {
                             padding: 10px 10px;
                             margin-right: 10px;
                             float: left;
